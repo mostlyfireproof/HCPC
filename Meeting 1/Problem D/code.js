@@ -7,6 +7,8 @@ var fields = input.split(' ');
 var stoneBridges = fields[0];
 var knights = fields[1];
 var groupSize = fields[2];
-var days = ;
+var days = knights;
+// not sure if this will work, basing this off of the sample data
 
-console.log();
+
+console.log(days);
