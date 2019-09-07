@@ -1,11 +1,13 @@
-var = input("enter data")
+import math
+
+var = input("enter data ")
 
 data = var.split()
 
-bridges = data[0]
-knights = data[1]
-groupSize = data[2]
+bridges = int(data[0]) - 1
+knights = int(data[1])
+groupSize = int(data[2])
 
-days = knights
+days = math.ceil(bridges / math.floor(knights / groupSize))
 
 print(days)
