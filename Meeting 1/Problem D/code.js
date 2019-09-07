@@ -1,6 +1,7 @@
 //const readline = require('readline-sync');
 
-let input = readline.question("give numbers plz");
+//let input = readline.question("give numbers plz");
+var input = prompt("enter code")
 var fields = input.split(' ');
 // https://stackoverflow.com/a/96452
 
