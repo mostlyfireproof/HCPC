@@ -1,6 +1,6 @@
 import math
 
-var = input("enter data ")
+var = input()
 
 data = var.split()
 
