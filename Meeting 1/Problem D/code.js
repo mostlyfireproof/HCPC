@@ -1,4 +1,4 @@
-const readline = require('readline-sync');
+//const readline = require('readline-sync');
 
 let input = readline.question("give numbers plz");
 var fields = input.split(' ');
