@@ -4,5 +4,6 @@ line1 = input()
 line2 = input()
 
 data = line2.split()
+data = [int(i) for i in data]
 
-print(int(data.index(min(data))))
+print((data.index(min(data))))
