@@ -1,17 +1,10 @@
 # https://open.kattis.com/problems/helpaphd
 
-import math
-problems = int(input())
-
-maths = ""
-for j in range(1,problems):
-    maths+=input()+" "
-
-data = maths.split()
-
-for line in range(1, problems):
-    if data[line] == "P=NP":
+num = int(input())
+for i in range(num):
+    a = input()
+    if a == "P=NP" :
         print("skipped")
     else:
-        heck = data[line].split('+')
-        print(int(heck[0]) +int(heck[1]))
+        b = a.split('+')
+        print(int(b[0]) + int(b[1]))
