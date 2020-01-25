@@ -5,8 +5,8 @@ while True:
     line = input()
     if line:
         lines.append(line)
-    else:
-        break
+        else:
+            break
 
 for j in range(0, (len(lines) - 1)):
     data = lines[j].split()
